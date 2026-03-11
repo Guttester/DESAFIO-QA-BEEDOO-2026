@@ -2,8 +2,8 @@
 
 ## Analista de Qualidade de Software Júnior – Beedoo
 
-**QA Responsável:** Augusto Henrique do Espirito Santo
-**Data de entrega:** 11/02/2026 - 3:00 .
+**QA Responsável:** Augusto Henrique do Espirito Santo<br>
+**Data de entrega:** 11/03/2026 - 03:00
 
 ---
 
