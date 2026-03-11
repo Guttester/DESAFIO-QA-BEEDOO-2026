@@ -2,19 +2,28 @@
 
 ## Analista de Qualidade de Software Júnior – Beedoo
 
-**QA Responsável:** Augusto Henrique do Espirito Santo<br>
+**QA Responsável:** Augusto Henrique do Espirito Santo  
 **Data de entrega:** 11/03/2026 - 03:00
 
 ---
 
-# 1. Objetivo da aplicação
+# 0. Análise preliminar da aplicação
 
-A aplicação tem como objetivo permitir o cadastro e a listagem de cursos.  
-O sistema disponibiliza um formulário para registro de cursos e uma tela para visualização dos cursos cadastrados.
+A aplicação apresenta uma estrutura simples que simula um módulo básico de gerenciamento de cursos, seguindo parcialmente o conceito de um CRUD (Create, Read, Update, Delete).
+
+Atualmente a aplicação contempla principalmente os fluxos de:
+
+- Cadastro de cursos (Create)
+- Listagem de cursos (Read)
+- Exclusão de cursos (Delete)
+
+Não foi identificada a implementação da funcionalidade de **edição (Update)**, o que indica que a aplicação ainda se encontra em uma versão inicial ou de demonstração.
+
+Outro ponto observado é a ausência de validações mais rígidas no formulário, como campos obrigatórios ou restrições de consistência de dados. Essas validações seriam importantes em versões futuras para garantir maior integridade das informações cadastradas.
 
 ---
 
-# 2. Fluxos principais identificados
+# 1. Fluxos principais identificados
 
 Durante a exploração da aplicação foram identificados dois fluxos principais:
 
@@ -30,7 +39,7 @@ Durante a exploração da aplicação foram identificados dois fluxos principais
 
 ---
 
-# 3. Pontos críticos para testes
+# 2. Pontos críticos para testes
 
 Os principais pontos considerados críticos foram:
 
@@ -43,7 +52,7 @@ Os principais pontos considerados críticos foram:
 
 ---
 
-# 4. Estratégia de testes
+# 3. Estratégia de testes
 
 A estratégia adotada considerou:
 
@@ -53,11 +62,11 @@ A estratégia adotada considerou:
 - Validação de campos
 - Comportamentos inesperados
 
-Os cenários foram documentados utilizando estrutura Gherkin (Given / When / Then).
+Os cenários foram documentados utilizando estrutura **Gherkin (Given / When / Then)**.
 
 ---
 
-# 5. Cenários e casos de teste
+# 4. Cenários e casos de teste
 
 ### Overview da execução dos testes
 
@@ -81,6 +90,7 @@ A imagem abaixo apresenta um resumo consolidado da execução dos cenários de t
 ![View Board](https://github.com/Guttester/DESAFIO-QA-BEEDOO-2026/blob/main/View-board.png?raw=true)
 
 Os cenários e casos de teste foram documentados em uma planilha.
+
 ![Cenários de Teste](https://raw.githubusercontent.com/Guttester/DESAFIO-QA-BEEDOO-2026/main/Cen%C3%A1rios.png)
 
 **Planilha de testes:**  
@@ -88,9 +98,9 @@ https://docs.google.com/spreadsheets/d/1HULq2tFXZiGUQ7YqYXq_vwt0NQQ2x62PaSFZ4MRt
 
 ---
 
-# 6. Execução dos testes
+# 5. Execução dos testes
 
-Os testes foram executados manualmente na aplicação disponibilizada:
+Os testes foram executados manualmente na aplicação disponibilizada para o desafio:
 
 https://creative-sherbet-a51eac.netlify.app/
 
@@ -103,7 +113,7 @@ Durante a execução foram identificados:
 
 ---
 
-# 7. Bugs encontrados
+# 6. Bugs encontrados
 
 Os bugs identificados durante a execução estão documentados em:
 
@@ -121,7 +131,7 @@ Cada bug contém:
 
 ---
 
-# 8. Evidências da execução
+# 7. Evidências da execução
 
 As evidências da execução dos testes podem ser acessadas no link abaixo:
 
@@ -129,7 +139,7 @@ https://drive.google.com/drive/folders/1BcOyzFoNUm_3ET5Sfqsq2Co9Tm6aXQCG?usp=dri
 
 ---
 
-# 9. Uso de Inteligência Artificial
+# 8. Uso de Inteligência Artificial
 
 Ferramentas de IA foram utilizadas como apoio para organização da documentação e revisão estrutural dos cenários de teste.
 
@@ -137,7 +147,7 @@ As decisões de análise e definição dos cenários foram realizadas de forma c
 
 ---
 
-# 10. Considerações finais
+# 9. Considerações finais
 
 O desafio permitiu analisar aspectos importantes de qualidade de software, incluindo:
 
