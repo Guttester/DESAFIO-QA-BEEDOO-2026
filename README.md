@@ -1,1 +1,126 @@
+# DESAFIO-QA-BEEDOO-2026
 
+## Analista de Qualidade de Software Júnior – Beedoo
+
+**QA Responsável:** Augusto Henrique do Espirito Santo
+**Data de entrega:** 11/02/2026 - 3:00 .
+
+---
+
+# 1. Objetivo da aplicação
+
+A aplicação tem como objetivo permitir o cadastro e a listagem de cursos.  
+O sistema disponibiliza um formulário para registro de cursos e uma tela para visualização dos cursos cadastrados.
+
+---
+
+# 2. Fluxos principais identificados
+
+Durante a exploração da aplicação foram identificados dois fluxos principais:
+
+## Cadastro de cursos
+1. Acessar tela de cadastro
+2. Preencher informações do curso
+3. Registrar curso no sistema
+
+## Listagem de cursos
+1. Visualizar cursos cadastrados
+2. Exibir informações dos cursos em cards
+3. Possibilidade de exclusão de cursos
+
+---
+
+# 3. Pontos críticos para testes
+
+Os principais pontos considerados críticos foram:
+
+- Validação de campos do formulário
+- Consistência das datas (data início e data fim)
+- Persistência das informações cadastradas
+- Organização visual dos cards na listagem
+- Funcionamento da exclusão de cursos
+- Comunicação entre frontend e backend
+
+---
+
+# 4. Estratégia de testes
+
+A estratégia adotada considerou:
+
+- Fluxos principais da aplicação
+- Cenários positivos
+- Cenários negativos
+- Validação de campos
+- Comportamentos inesperados
+
+Os cenários foram documentados utilizando estrutura Gherkin (Given / When / Then).
+
+---
+
+# 5. Cenários e casos de teste
+
+Os cenários e casos de teste foram documentados em uma planilha.
+
+**Planilha de testes:**  
+(LINK DA PLANILHA)
+
+---
+
+# 6. Execução dos testes
+
+Os testes foram executados manualmente na aplicação disponibilizada:
+
+https://creative-sherbet-a51eac.netlify.app/
+
+Durante a execução foram identificados:
+
+- comportamentos esperados
+- inconsistências de layout
+- falhas de validação
+- falhas funcionais
+
+---
+
+# 7. Bugs encontrados
+
+Os bugs identificados durante a execução estão documentados em:
+
+**Relatório de Bugs:**  
+(LINK DO ARQUIVO DE BUGS)
+
+Cada bug contém:
+
+- título do bug
+- passos para reproduzir
+- resultado atual
+- resultado esperado
+- severidade
+- evidência
+
+---
+
+# 8. Evidências da execução
+
+As evidências da execução dos testes podem ser acessadas no link abaixo:
+
+(LINK DO GOOGLE DRIVE)
+
+---
+
+# 9. Uso de Inteligência Artificial
+
+Ferramentas de IA foram utilizadas como apoio para organização da documentação e revisão estrutural dos cenários de teste.
+
+As decisões de análise e definição dos cenários foram realizadas de forma crítica durante a exploração da aplicação.
+
+---
+
+# 10. Considerações finais
+
+O desafio permitiu analisar aspectos importantes de qualidade de software, incluindo:
+
+- modelagem de cenários de teste
+- identificação de defeitos
+- análise de comportamento do sistema
+
+A documentação buscou manter clareza, rastreabilidade entre cenários e bugs e organização da entrega.
