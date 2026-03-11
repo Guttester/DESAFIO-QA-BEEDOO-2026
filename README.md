@@ -59,7 +59,29 @@ Os cenários foram documentados utilizando estrutura Gherkin (Given / When / The
 
 # 5. Cenários e casos de teste
 
+### Overview da execução dos testes
+
+Durante a execução dos testes foram avaliados os fluxos principais do módulo de cursos, incluindo cadastro e listagem.
+
+Ao todo foram executados **15 cenários de teste**, distribuídos entre funcionalidades críticas da aplicação.
+
+**Resultados da execução:**
+
+- **11 cenários passaram (PASSED)** demonstrando funcionamento esperado em parte das funcionalidades.
+- **4 cenários falharam (FAILED)** indicando inconsistências relacionadas a validações, layout e comportamento funcional da aplicação.
+- Não foram identificados cenários bloqueados ou pendentes durante a execução.
+
+Os cenários foram organizados em dois grupos principais:
+
+- **Cadastro de cursos** – validação de campos, consistência de dados e registro das informações.
+- **Listagem de cursos** – validação de navegação, organização dos cards e comportamento da interface.
+
+A imagem abaixo apresenta um resumo consolidado da execução dos cenários de teste.
+
+![View Board](https://github.com/Guttester/DESAFIO-QA-BEEDOO-2026/blob/main/View-board.png?raw=true)
+
 Os cenários e casos de teste foram documentados em uma planilha.
+![Cenários de Teste](https://raw.githubusercontent.com/Guttester/DESAFIO-QA-BEEDOO-2026/main/Cen%C3%A1rios.png)
 
 **Planilha de testes:**  
 https://docs.google.com/spreadsheets/d/1HULq2tFXZiGUQ7YqYXq_vwt0NQQ2x62PaSFZ4MRtR8E/edit?usp=sharing
