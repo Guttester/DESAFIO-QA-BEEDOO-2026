@@ -62,7 +62,7 @@ Os cenários foram documentados utilizando estrutura Gherkin (Given / When / The
 Os cenários e casos de teste foram documentados em uma planilha.
 
 **Planilha de testes:**  
-(LINK DA PLANILHA)
+https://docs.google.com/spreadsheets/d/1HULq2tFXZiGUQ7YqYXq_vwt0NQQ2x62PaSFZ4MRtR8E/edit?usp=sharing
 
 ---
 
@@ -86,7 +86,7 @@ Durante a execução foram identificados:
 Os bugs identificados durante a execução estão documentados em:
 
 **Relatório de Bugs:**  
-(LINK DO ARQUIVO DE BUGS)
+https://drive.google.com/drive/folders/1A6_XZLN3CSsbg9Pq__d-0Jl0aIWEf1Ec?usp=drive_link
 
 Cada bug contém:
 
@@ -103,8 +103,7 @@ Cada bug contém:
 
 As evidências da execução dos testes podem ser acessadas no link abaixo:
 
-(LINK DO GOOGLE DRIVE)
-
+https://drive.google.com/drive/folders/1BcOyzFoNUm_3ET5Sfqsq2Co9Tm6aXQCG?usp=drive_link
 ---
 
 # 9. Uso de Inteligência Artificial
